@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navin Panse | Backend Software Engineer</title>
+    <meta name="description" content="Navin Panse - Backend Software Engineer specializing in Python, Django, scalable backend systems, and AI-powered automation workflows.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48cmVjdCB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgcng9IjIwIiBmaWxsPSIjMWUyOTNiIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiBmb250LXNpemU9IjQ1IiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0iIzM4YmRmOCI+TjwvdGV4dD48L3N2Zz4=">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    
+    <!-- AOS Animation CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#home">Diksha Panse</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-toggle="target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav gap-3">
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section id="home" class="hero-section">
+    <div class="container">
+        <div class="row align-items-center flex-column-reverse flex-lg-row">
+            <div class="col-lg-7 text-center text-lg-start" data-aos="fade-right" data-aos-duration="1000">
+                <h1 class="hero-title">Diksha Panse</h1>
+                <div class="typing-container">
+                    <h2 class="hero-subtitle" id="typing"></h2>
+                </div>
+                <p class="lead mb-4">
+                   I design and implement scalable backend services, interactive modern frontends, Specializing in React, Node.js.
+                </p>
+                <div class="d-flex gap-3 justify-content-center justify-content-lg-start mb-4">
+                    <a href="#projects" class="btn btn-primary-custom">View Projects</a>
+                    <a href="diksha-panse.pdf" download class="btn btn-outline-custom" target="_blank">Download Resume <i class="fa-solid fa-download ms-2"></i></a>
+                </div>
+                <div class="social-links text-start mb-0">
+                    <a href="https://github.com/Dikshapanse/" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/diksha-panse-827412322/" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://leetcode.com/u/navinpanse/" target="_blank" aria-label="LeetCode"><i class="fa-solid fa-code"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-5 mb-5 mb-lg-0" data-aos="fade-left" data-aos-duration="1000">
+                <div class="profile-img-container">
+                    <div class="profile-glow"></div>
+                    <img src="profile-image.jpg" alt="Diksha Panse" class="profile-img" onerror="this.src='https://placehold.co/400?text=DP&font=inter'">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Achievement Banner -->
+<section class="py-5" style="border-top: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color); background: rgba(var(--accent-color-rgb), 0.01);">
+    <div class="container">
+        <div class="row g-4 justify-content-center">
+            <div class="col-6 col-md-3" data-aos="zoom-in" data-aos-delay="100">
+                <div class="stat-card">
+                    <div class="stat-value"><span class="counter" data-target="0">0</span></div>
+                    <div class="stat-label">Years Exp</div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3" data-aos="zoom-in" data-aos-delay="200">
+                <div class="stat-card">
+                    <div class="stat-value"><span class="counter" data-target="8">0</span>+</div>
+                    <div class="stat-label">Projects Built</div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3" data-aos="zoom-in" data-aos-delay="300">
+                <div class="stat-card">
+                    <div class="stat-value"><span class="counter" data-target="50">0</span>+</div>
+                    <div class="stat-label">DSA Solved</div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3" data-aos="zoom-in" data-aos-delay="400">
+                <div class="stat-card">
+                    <div class="stat-value"><span class="counter" data-target="50">0</span>+</div>
+                    <div class="stat-label">Emails</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- About Section -->
+<section id="about">
+    <div class="container" data-aos="fade-up">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 text-center">
+                <h2 class="section-title">About Me</h2>
+                <div class="glass-card text-start mt-4">
+                    <p>
+                        I am a fresher web developer with hands-on experience in building responsive websites and React-based projects. I enjoy creating clean, modern, and user-friendly web interfaces that work smoothly on desktop and mobile devices.
+                    </p>
+                    <p>
+                        My skills include HTML, CSS, JavaScript, React.js, Node.js, GitHub, and UI development. I am also learning how frontend and backend technologies work together to build complete web applications.
+                    </p>
+                    <p class="mb-0">
+                        I am actively working on real-world projects to improve my development skills, problem-solving ability, and understanding of modern web technologies. I am looking for an opportunity to learn from experienced developers, contribute to meaningful projects, and grow as a web developer.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills" style="background: rgba(var(--accent-color-rgb), 0.01);">
+    <div class="container" data-aos="fade-up">
+        <div class="text-center">
+            <h2 class="section-title">Technical Skills</h2>
+            <p class="section-subtitle">Technologies and frameworks I specialize in</p>
+        </div>
+        
+        <div class="row mt-2 g-4 justify-content-center">
+            <!-- Frontend -->
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="glass-card h-100 p-4">
+                    <div class="skills-category">
+                        <h4><i class="fa-solid fa-laptop-code text-gradient"></i> Frontend Development</h4>
+                        <div class="mt-3">
+                            <span class="skill-badge"><i class="fa-brands fa-html5 text-danger"></i> HTML</span>
+                            <span class="skill-badge"><i class="fa-brands fa-css3-alt text-primary"></i> CSS</span>
+                            <span class="skill-badge"><i class="fa-brands fa-js text-warning"></i> JavaScript</span>
+                            <span class="skill-badge"><i class="fa-brands fa-react text-info"></i> React.js</span>
+                            <span class="skill-badge"><i class="fa-brands fa-bootstrap text-purple"></i> Bootstrap</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Backend & Database -->
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="glass-card h-100 p-4">
+                    <div class="skills-category">
+                        <h4><i class="fa-solid fa-server text-gradient"></i> Backend & Database</h4>
+                        <div class="mt-3">
+                            <span class="skill-badge"><i class="fa-brands fa-node-js text-success"></i> Node.js</span>
+                            <span class="skill-badge"><i class="fa-brands fa-python text-primary"></i> Python</span>
+                            <span class="skill-badge"><i class="fa-brands fa-php text-info"></i> PHP</span>
+                            <span class="skill-badge"><i class="fa-solid fa-database text-info"></i> MySQL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Tools & Platforms -->
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+                <div class="glass-card h-100 p-4">
+                    <div class="skills-category">
+                        <h4><i class="fa-solid fa-screwdriver-wrench text-gradient"></i> Tools & Platforms</h4>
+                        <div class="mt-3">
+                            <span class="skill-badge"><i class="fa-brands fa-github"></i> GitHub</span>
+                            <span class="skill-badge"><i class="fa-solid fa-wand-magic-sparkles text-warning"></i> Antigravity AI</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" style="background: rgba(var(--accent-color-rgb), 0.01);">
+    <div class="container">
+        <div class="text-center mb-5" data-aos="fade-up">
+            <h2 class="section-title">Featured Projects</h2>
+            <p class="section-subtitle">A collection of custom applications I've developed</p>
+        </div>
+        
+        <div class="row g-4 justify-content-center">
+            <!-- Project 1 -->
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="project-card">
+                    <div class="project-image-wrapper">
+                        <i class="fa-solid fa-heart-pulse"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Web Pulse</h3>
+                        <div class="project-tech">
+                            <span>React.js</span><span>Node.js</span><span>Express.js</span><span>MySQL</span>
+                        </div>
+                        <div class="project-details">
+                            <ul class="ps-3 mb-0 text-secondary" style="font-size: 0.92rem; line-height: 1.6;">
+                                <li class="mb-2">Developed a website monitoring platform for tracking uptime, downtime, and performance metrics.</li>
+                                <li class="mb-2">Built responsive dashboard interfaces using React.js and integrated REST APIs for real-time data visualization.</li>
+                                <li class="mb-2">Developed backend services with Node.js and Express.js and managed monitoring data using MySQL.</li>
+                                <li class="mb-0">Implemented website status tracking, response time monitoring, and analytics reporting features.</li>
+                            </ul>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://github.com/Dikshapanse/project_web_pulse.git" target="_blank" class="btn btn-outline-custom btn-sm"><i class="fa-brands fa-github me-2"></i>Codebase</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Project 2 -->
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                <div class="project-card">
+                    <div class="project-image-wrapper">
+                        <i class="fa-solid fa-plane-departure"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Tours & Travel Management</h3>
+                        <div class="project-tech">
+                            <span>PHP</span><span>MySQL</span><span>JavaScript</span><span>HTML</span><span>CSS</span>
+                        </div>
+                        <div class="project-details">
+                            <ul class="ps-3 mb-0 text-secondary" style="font-size: 0.92rem; line-height: 1.6;">
+                                <li class="mb-2">Developed a Tours & Travel Management System with user registration, booking, and cancellation features.</li>
+                                <li class="mb-2">Implemented tour package browsing and booking functionalities.</li>
+                                <li class="mb-2">Built a secure admin panel for managing packages and customer bookings.</li>
+                                <li class="mb-2">Integrated MySQL database for secure customer data storage.</li>
+                                <li class="mb-0">Designed responsive and user-friendly web interfaces using Bootstrap & CSS.</li>
+                            </ul>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://github.com/Dikshapanse/tour_travel_project.git" target="_blank" class="btn btn-outline-custom btn-sm"><i class="fa-brands fa-github me-2"></i>Codebase</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                <div class="project-card">
+                    <div class="project-image-wrapper">
+                        <i class="fa-regular fa-newspaper"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>News App</h3>
+                        <div class="project-tech">
+                            <span>React.js</span><span>JavaScript</span><span>HTML</span><span>CSS</span><span>News API</span>
+                        </div>
+                        <div class="project-details">
+                            <ul class="ps-3 mb-0 text-secondary" style="font-size: 0.92rem; line-height: 1.6;">
+                                <li class="mb-2">Developed a News App using React.js and third-party News API services.</li>
+                                <li class="mb-2">Implemented real-time news fetching and category-based filtering.</li>
+                                <li class="mb-2">Designed a clean, responsive, and user-friendly navigation layout.</li>
+                                <li class="mb-0">Integrated APIs to dynamically load and display current news cards.</li>
+                            </ul>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://github.com/Dikshapanse/newsapp.git" target="_blank" class="btn btn-outline-custom btn-sm"><i class="fa-brands fa-github me-2"></i>Codebase</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 4 -->
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="project-card">
+                    <div class="project-image-wrapper">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Coaching Management</h3>
+                        <div class="project-tech">
+                            <span>PHP</span><span>MySQL</span><span>JavaScript</span><span>HTML</span><span>CSS</span>
+                        </div>
+                        <div class="project-details">
+                            <ul class="ps-3 mb-0 text-secondary" style="font-size: 0.92rem; line-height: 1.6;">
+                                <li class="mb-2">Developed a centralized platform for managing student admissions, batch scheduling, and fee records.</li>
+                                <li class="mb-2">Implemented search and filter functionalities to quickly access student attendance and performance reports.</li>
+                                <li class="mb-2">Designed an interactive admin panel to track coaching staff details, course packages, and monthly collections.</li>
+                                <li class="mb-0">Integrated MySQL database to store secure student profiles and transactional records.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 5 -->
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                <div class="project-card">
+                    <div class="project-image-wrapper">
+                        <i class="fa-solid fa-house-chimney-window"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Hostel Management</h3>
+                        <div class="project-tech">
+                            <span>PHP</span><span>MySQL</span><span>JavaScript</span><span>HTML</span><span>CSS</span>
+                        </div>
+                        <div class="project-details">
+                            <ul class="ps-3 mb-0 text-secondary" style="font-size: 0.92rem; line-height: 1.6;">
+                                <li class="mb-2">Developed an automated hostel room allocation and resident tracking system.</li>
+                                <li class="mb-2">Implemented check-in/check-out tracking, visitor logs, and monthly mess bill calculations.</li>
+                                <li class="mb-2">Created interactive dashboard layouts for hostel wardens to monitor vacant rooms and resolve student complaints.</li>
+                                <li class="mb-0">Designed clean, user-friendly interfaces using Bootstrap, HTML5, and CSS3.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" style="background: rgba(255,255,255,0.01);">
+    <div class="container" data-aos="fade-up">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 text-center">
+                <h2 class="section-title">Let's Build Something Great Together</h2>
+                <p class="section-subtitle mb-5">Currently open for new opportunities. Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
+                
+                <div class="glass-card text-center p-5">
+                    <div class="d-flex flex-column gap-4 align-items-center">
+                        <a href="mailto:dikshapanse154@gmail.com" class="text-decoration-none" style="color: var(--text-primary); transition: color 0.3s ease;" onmouseover="this.style.color='var(--accent-color)'" onmouseout="this.style.color='var(--text-primary)'">
+                            <i class="fa-solid fa-envelope fs-2 mb-2 text-gradient d-block"></i>
+                            <span class="fs-4 fw-medium">dikshapanse154@gmail.com</span>
+                        </a>
+                        <a href="tel:+918349196418" class="text-decoration-none" style="color: var(--text-primary); transition: color 0.3s ease;" onmouseover="this.style.color='var(--accent-color)'" onmouseout="this.style.color='var(--text-primary)'">
+                            <i class="fa-solid fa-phone fs-2 mb-2 text-gradient d-block"></i>
+                            <span class="fs-4 fw-medium">+91 8817451363</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="social-links">
+            <a href="mailto:dikshapanse154@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+            <a href="https://github.com/Dikshapanse" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/diksha-panse-827412322/" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <p class="mb-0 text-secondary">&copy; <span id="current-year"></span> Diksha Panse. All Rights Reserved.</p>
+    </div>
+</footer>
+
+<!-- Scripts -->
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<!-- Bootstrap Bundle JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<!-- AOS Animation JS -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<!-- Custom JS -->
+<script src="index.js"></script>
+
+</body>
+</html>
